@@ -73,9 +73,9 @@ yesBtn.addEventListener("click", () => {
 
 
 // 🔒 TIME LOCK
-//const unlockDate = new Date("2026-02-14T00:00:00").getTime();
+const unlockDate = new Date("2026-02-14T00:00:00").getTime();
 //test
-const unlockDate = new Date(Date.now() + 5000).getTime();
+//const unlockDate = new Date(Date.now() + 5000).getTime();
 
 const lock = document.getElementById("lock-container");
 const content = document.getElementById("content");
